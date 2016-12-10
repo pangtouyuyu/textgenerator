@@ -21,11 +21,11 @@
 	 Then run the code.
 	 But this text generator is not working perfectly.<p>
 	 It can only read one paragraph text and cannot adjust the length of the generated text.<p>
-	 For example, put the The Iraqi Constitution in the sample.txt and run the code, we will get:<p>
+	 For example, put the The Iraqi Constitution in the sample.txt and run the code, we will get:<p><p>
 	 In the most merciful, the land the sons of Adam. We have honored the first law made by man was passed, 
 	 the most compassionate We have honored the homeland of Adam. We have honored the sons of writing and 
 	 poets excelled. <p>
-	  <p><p>
+	  <p><p><p>
 	 Run it again, <p>we can get:<p><p>
 	 In the people of Adam. We have honored the people of numeration. Upon our soil, companions of the first 
 	    law made by man was passed, the name of the people of the first law made by man was passed, the virtuous imams, 
@@ -46,7 +46,11 @@
 	    sons of the most compassionate We have honored the Prophet and scientists theorized and scientists theorized and cradle
 	    of Adam. We are the people of God, the homeland of Adam. We are the homeland of the Prophet and writers and saints prayed,
 	    philosophers and cradle of numeration. Upon our land between two rivers, the most ancient just pact for homelands policy
-	    was inscribed, and prophets, abode of writing and poets excelled. 
+	    was inscribed, and prophets, abode of writing and poets excelled. <p><p><p>
+	    We can tell from the result the backward word is choosen randomly after the forward word.<p>
+	    Basically, after the program scan all the text in the sample. It will remember which words have appeared after "the", just for example.
+	    Then while it's generating the text, it will choosen a word randomly from the words remebered in the forward step.<p>
+	    So we can get different results.
 
 <pre><code>
 #define N 1
