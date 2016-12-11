@@ -1,3 +1,5 @@
+#textgenerator
+
 You can store the sample txt in the file named "sample.txt".
 
 Then run the code. But this text generator is not working perfectly.
